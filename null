@@ -1,0 +1,53 @@
+1568706245225	geckodriver	INFO	geckodriver 0.21.0
+1568706245234	geckodriver	INFO	Listening on 127.0.0.1:47003
+1568706247242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.Vxi0S7fGVgk6"
+1568706247456	Marionette	TRACE	Received observer notification profile-after-change
+1568706247512	Marionette	TRACE	Received observer notification command-line-startup
+1568706247512	Marionette	TRACE	Received observer notification nsPref:changed
+1568706247512	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1568706247552	Marionette	TRACE	Received observer notification toplevel-window-ready
+1568706248414	Marionette	TRACE	Received observer notification marionette-startup-requested
+1568706248414	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1568706248442	Marionette	TRACE	All scripts recorded.
+1568706248442	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1568706248442	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1568706248443	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1568706248444	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1568706248444	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1568706248444	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1568706248444	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1568706248444	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1568706248444	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1568706248444	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1568706248444	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1568706248444	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1568706248444	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1568706248444	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1568706248444	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1568706248445	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1568706248445	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1568706248478	Marionette	INFO	Listening on port 55511
+1568706248479	Marionette	DEBUG	Remote service is active
+1568706248750	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55512
+1568706248754	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"eager"}},"pageLoadStrategy":"eager"}]
+1568706248755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568706248793	Marionette	TRACE	[2147483649] Frame script loaded
+1568706248795	Marionette	TRACE	[2147483649] Frame script registered
+1568706248806	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"1907e093-93fe-4100-8897-db9103db6da3","capabilities":{"browserName":"firefox","browserVersion":"69.0" ... rue,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"eager"}}}}]
+1568706248848	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":10000}]
+1568706248848	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1568706248854	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://mail.rediff.com/cgi-bin/login.cgi"}]
+1568706248863	Marionette	TRACE	[2147483649] Received DOM event beforeunload for about:blank
+1568706249029	Marionette	TRACE	[2147483649] Received DOM event pagehide for about:blank
+1568706249067	Marionette	TRACE	[2147483649] Received DOM event DOMContentLoaded for https://mail.rediff.com/cgi-bin/login.cgi
+1568706249078	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1568706249092	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"#login1"}]
+1568706249096	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"eff5edbf-64e9-4080-872c-67757f346c3d"}}]
+1568706249108	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"eff5edbf-64e9-4080-872c-67757f346c3d","text":"hello","value":["h","e","l","l","o"]}]
+1568706249124	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
